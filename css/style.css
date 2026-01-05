@@ -438,6 +438,7 @@ a:active {
 }
 
 .gallery_section .play_video {
+	color: var(--white);
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -452,8 +453,12 @@ a:active {
 .gallery_section svg {
 	width: 2rem;
 	height: 2rem;
-	fill: var(--white);
+	/* fill: var(--white); */
 	transition: fill 300ms ease-in-out;
+}
+
+svg.ionicon:hover {
+	color: var(--navy);
 }
 
 .gallery_section .play_video:focus,

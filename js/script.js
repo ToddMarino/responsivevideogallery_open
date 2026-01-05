@@ -92,11 +92,10 @@ function createDialog() {
 
 document.addEventListener('DOMContentLoaded', () => {
   fetchData();
-
   menuToggle();
   escapeToggle();
   copyright();
-  createDialog();
+  
 });
 
 const fetchData = async () => {
@@ -107,9 +106,25 @@ const fetchData = async () => {
     videoData = await response.json();
 
     createCards(videoData);
+    createDialog();
   } catch (err) {
     console.error('Failed to fetch data', err);
   }
+};
+
+const createIcon  = (pathD) => {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+
+  svg.setAttribute('aria-hidden', 'true');
+  svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+  svg.setAttribute('viewBox', '0 0 512 512');
+  svg.classList.add('ionicon');
+  path.setAttribute('d', pathD);
+  path.setAttribute('fill', 'currentColor');
+
+  svg.appendChild(path);
+  return svg;
 };
 
 const createCards = () => {
@@ -121,8 +136,9 @@ const createCards = () => {
     const fig = document.createElement('figure');
     const img = document.createElement('img');
     const btn = document.createElement('button');
-    const icon = document.createElement('svg');
-    const iconPath = document.createElement('path');
+    const icon = createIcon(
+      'M 133 440 a 35.37 35.37 0 0 1 -17.5 -4.67 c -12 -6.8 -19.46 -20 -19.46 -34.33 V 111 c 0 -14.37 7.46 -27.53 19.46 -34.33 a 35.13 35.13 0 0 1 35.77 0.45 l 247.85 148.36 a 36 36 0 0 1 0 61 l -247.89 148.4 A 35.5 35.5 0 0 1 133 440 Z'
+    );
     const h3 = document.createElement('h3');
     const p = document.createElement('p');
 
@@ -132,11 +148,11 @@ const createCards = () => {
     btn.classList.add('play_video');
     icon.classList.add('ionicon');
     h3.classList.add('video_title');
-	  p.classList.add('video_type');
-	  
-	  //  Add innerText to Elements
-	  h3.innerText = title
-	  p.innerText = 'YouTube'
+    p.classList.add('video_type');
+
+    //  Add innerText to Elements
+    h3.innerText = title;
+    p.innerText = 'YouTube';
 
     //   Add attributes to Elements
     img.setAttribute('src', image);
@@ -146,28 +162,16 @@ const createCards = () => {
     btn.setAttribute('data-type', 'youtube');
     btn.setAttribute('aria-label', 'Play Video');
 
-    icon.setAttribute('aria-hidden', 'true');
-    icon.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-    icon.setAttribute('viewBox', '0 0 512 512');
+    //   Add Elements to the DOM
 
-    iconPath.setAttribute(
-      'd',
-      'M133 440a35.37 35.37 0 01-17.5-4.67c-12-6.8-19.46-20-19.46-34.33V111c0-14.37 7.46-27.53 19.46-34.33a35.13 35.13 0 0135.77.45l247.85 148.36a36 36 0 010 61l-247.89 148.4A35.5 35.5 0 01133 440z'
-    );
-
-	  //   Add Elements to the DOM
-    // gridWrap.insertAdjacentElement('afterbegin', art);
     gridWrap.appendChild(art);
-	  art.appendChild(fig);
-	  art.appendChild(h3)
-	  art.appendChild(p)
+    art.appendChild(fig);
+    art.appendChild(h3);
+    art.appendChild(p);
 
     fig.insertAdjacentElement('afterbegin', img);
     fig.insertAdjacentElement('beforeend', btn);
 
     btn.appendChild(icon);
-
-	  icon.appendChild(iconPath);
   });
 };
-
