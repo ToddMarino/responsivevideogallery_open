@@ -1,74 +1,88 @@
 {
   "videos": [
     {
-      "id": "zH3ZohGnjcg",
+      "id": "szRgEyiX6Sk",
       "type": "YouTube",
-      "title": "Kumru Ballad",
-      "url": "https://www.youtube.com/watch?v=zH3ZohGnjcg",
-      "image": "https://img.youtube.com/vi/zH3ZohGnjcg/mqdefault.jpg"
+      "title": "Deploy a Website to DigitalOcean 💧 LAMP + SFTP (FileZilla) + DNS Setup",
+      "url": "https://www.youtube.com/watch?v=szRgEyiX6Sk",
+      "image": "https://img.youtube.com/vi/szRgEyiX6Sk/mqdefault.jpg"
     },
     {
-      "id": "paG__3FBLzI",
+      "id": "YbJxNKt3r5I",
       "type": "YouTube",
-      "title": "Mesopotamia Symphony [Scenes from a rehearsal]",
-      "url": "https://www.youtube.com/watch?v=paG__3FBLzI",
-      "image": "https://img.youtube.com/vi/paG__3FBLzI/mqdefault.jpg"
+      "title": "Advice for Time Traveling to 2010 as a Web Developer",
+      "url": "https://www.youtube.com/watch?v=YbJxNKt3r5I",
+      "image": "https://img.youtube.com/vi/YbJxNKt3r5I/mqdefault.jpg"
     },
     {
-      "id": "OF9fneQ50Us",
+      "id": "qy_ctSLSuf4",
       "type": "YouTube",
-      "title": "Beethoven Kreutzer Sonata No.9",
-      "url": "https://www.youtube.com/watch?v=OF9fneQ50Us",
-      "image": "https://img.youtube.com/vi/OF9fneQ50Us/mqdefault.jpg"
+      "title": "Responsive Navbar Build (HTML CSS JavaScript) No Talking Time Lapse",
+      "url": "https://www.youtube.com/watch?v=qy_ctSLSuf4",
+      "image": "https://img.youtube.com/vi/qy_ctSLSuf4/mqdefault.jpg"
     },
     {
-      "id": "1swsXJuclGM",
+      "id": "tYhZKDEosnA",
       "type": "YouTube",
-      "title": "Bodrum",
-      "url": "https://www.youtube.com/watch?v=1swsXJuclGM",
-      "image": "https://img.youtube.com/vi/1swsXJuclGM/mqdefault.jpg"
+      "title": "Learn Web Dev by Cloning a Real Site | HTML CSS JS + Deploy Project",
+      "url": "https://www.youtube.com/watch?v=tYhZKDEosnA",
+      "image": "https://img.youtube.com/vi/tYhZKDEosnA/mqdefault.jpg"
     },
     {
-      "id": "WQ3Gf9PLUO8",
+      "id": "BORta0DWUIY",
       "type": "YouTube",
-      "title": "Mesopotamia // Symphony No 2 [Documentary]",
-      "url": "https://www.youtube.com/watch?v=WQ3Gf9PLUO8",
-      "image": "https://img.youtube.com/vi/WQ3Gf9PLUO8/mqdefault.jpg"
+      "title": "Deploy a Website to DigitalOcean💧LAMP + Rsync (MacOS) + DNS Setup",
+      "url": "https://www.youtube.com/watch?v=BORta0DWUIY",
+      "image": "https://img.youtube.com/vi/BORta0DWUIY/mqdefault.jpg"
     },
     {
-      "id": "bYy1yKqspYs",
+      "id": "vtjHrfgm1WA",
       "type": "YouTube",
-      "title": "Paganini Jazz",
-      "url": "https://www.youtube.com/watch?v=bYy1yKqspYs",
-      "image": "https://img.youtube.com/vi/bYy1yKqspYs/mqdefault.jpg"
+      "title": "AI is gonna cook ya'll sideways 😭",
+      "url": "https://www.youtube.com/watch?v=vtjHrfgm1WA",
+      "image": "https://img.youtube.com/vi/vtjHrfgm1WA/mqdefault.jpg"
     },
     {
-      "id": "Vx3GkAzwVWM",
+      "id": "oFFR4zx1Uss",
       "type": "YouTube",
-      "title": "Say Plays Say [English Subtitles]",
-      "url": "https://www.youtube.com/watch?v=Vx3GkAzwVWM",
-      "image": "https://img.youtube.com/vi/Vx3GkAzwVWM/mqdefault.jpg"
+      "title": "Build an Instagram Profile User Interface 📷 HTML + CSS Project",
+      "url": "https://www.youtube.com/watch?v=oFFR4zx1Uss",
+      "image": "https://img.youtube.com/vi/oFFR4zx1Uss/mqdefault.jpg"
     },
     {
-      "id": "r2jkR_rUaMY",
+      "id": "32XwCadbGrQ",
       "type": "YouTube",
-      "title": "Say in Switzerland",
-      "url": "https://www.youtube.com/watch?v=r2jkR_rUaMY",
-      "image": "https://img.youtube.com/vi/r2jkR_rUaMY/mqdefault.jpg"
+      "title": "Build a Landing Page with HTML, CSS + JavaScript | Sticky Header on Scroll",
+      "url": "https://www.youtube.com/watch?v=32XwCadbGrQ",
+      "image": "https://img.youtube.com/vi/32XwCadbGrQ/mqdefault.jpg"
     },
     {
-      "id": "rw7bkVPtYmY",
+      "id": "EKwJl7EXCXw",
       "type": "YouTube",
-      "title": "Girne Konseri / Kyrenia Concert",
-      "url": "https://www.youtube.com/watch?v=rw7bkVPtYmY",
-      "image": "https://img.youtube.com/vi/rw7bkVPtYmY/mqdefault.jpg"
+      "title": "Build an Instagram Reels-Style UI with HTML, CSS + JavaScript",
+      "url": "https://www.youtube.com/watch?v=EKwJl7EXCXw",
+      "image": "https://img.youtube.com/vi/EKwJl7EXCXw/mqdefault.jpg"
     },
     {
-      "id": "njnuqtPAWDw",
+      "id": "aQsARcmmX4g",
       "type": "YouTube",
-      "title": "Mozart Maratonu / Mozart Marathon",
-      "url": "https://www.youtube.com/watch?v=njnuqtPAWDw",
-      "image": "https://img.youtube.com/vi/njnuqtPAWDw/mqdefault.jpg"
+      "title": "Build a Product Filter Website 🛒 HTML CSS JavaScript",
+      "url": "https://www.youtube.com/watch?v=aQsARcmmX4g",
+      "image": "https://img.youtube.com/vi/aQsARcmmX4g/mqdefault.jpg"
+    },
+    {
+      "id": "0i4eJ6VUqwQ",
+      "type": "YouTube",
+      "title": "Frontend Development Project | Build a Product Filter from Scratch (HTML CSS JS)",
+      "url": "https://www.youtube.com/watch?v=0i4eJ6VUqwQ",
+      "image": "https://img.youtube.com/vi/0i4eJ6VUqwQ/mqdefault.jpg"
+    },
+    {
+      "id": "egP2fo_TPMI",
+      "type": "YouTube",
+      "title": "Accessible + Responsive Navbar (HTML CSS JavaScript)",
+      "url": "https://www.youtube.com/watch?v=egP2fo_TPMI",
+      "image": "https://img.youtube.com/vi/egP2fo_TPMI/mqdefault.jpg"
     }
   ]
 }
